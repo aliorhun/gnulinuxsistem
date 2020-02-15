@@ -1,0 +1,2 @@
+# Paylaşım ve izinler
+

@@ -1,0 +1,2 @@
+# Dosya İzinleri
+
