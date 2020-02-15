@@ -1,0 +1,2 @@
+# GNU/Linux Sistem Yönetimi
+
