@@ -14,19 +14,24 @@ echo komutu en temel komutlardan birisidir. kabuk üzerinde yazdırma işlemi ya
 
 En basit uygulamalarından birisi terminal ekranına yazı yazmak olarak düşünülebilinir. Aşağıdaki komut ve sonrasındaki string değeri ile ekrana "Merhaba Dünya" çıktısı verilebilmektedir.
 
-`echo "Merhaba Dünya"`
+```text
+echo "Merhaba Dünya"
+```
 
 İleriki bölümlerde detaylı görülecek olan operatörler kullanarak herhangi bir dosyanın içerisine bu yazıyı yazabilirsiniz
 
-`echo "Dosya içerisinde Merhaba Dünya" >> /opt/ornekicerik.txt`
+```text
+echo "Dosya içerisinde Merhaba Dünya" >> /opt/ornekicerik.txt
+```
 
 ## cat
 
 cat komutu, genellikle kabuk üzerinde dosyaları birleştirmek veya dosya içeriğini yazmak için kullanılan bir komuttur. En basit uygulaması herhangi bir dosyanın ekrana yazılması olarak düşünebiliriz.
 
-`cat /opt/ornekicerik.txt`
-
-`cat /etc/hosts`
+```text
+cat /opt/ornekicerik.txt
+cat /etc/hosts
+```
 
 ## pwd
 
@@ -38,19 +43,24 @@ ls komutu, kabuk üzerinde bulunduğunuz konumdaki dosyaları listelemektedir. \
 
 En basit uygulaması bulunduğunuz dizindeki tüm dosyaları değişim zamanına göre listelemek için aşağıdaki komut kullanılabilmektedir. Parametreleri aşağıdaki iki farklı şekilde de kullanabilirsiniz:
 
-`ls -latr` 
-
-`ls -l -a -t -r`
+```text
+ls -latr 
+ls -l -a -t -r
+```
 
 Ayrıca ls komutunun bir diğer kullanımı da bulunduğunuz dizinde değil de, herhangi bir dizin içerisindeki dosyaların listelenmesidir. Bunun için aşağıdaki gibi komut ve parametreden sonra yol adresini yazmanız gerekmektedir.
 
-`ls -latr /etc/` 
+```text
+ls -latr /etc/ 
+```
 
 ## cd
 
 cd komutu, kabuk üzerinde bulunduğunuz dizinden başka bir dizine geçmenizi sağlamaktadır. Ve en basit uygulaması olarak komut sonrasında gidilmek istenen yol şeklinde kullanılmaktadır. Örneğin _/etc_ klasörüne gitmek isterseniz aşağıdaki gibi kullanmanız gerekmektedir.
 
-`cd /etc`
+```text
+cd /etc
+```
 
 Bu şekilde ilgili klasöre geçiş yapılabilmektedir.
 

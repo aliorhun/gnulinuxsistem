@@ -20,27 +20,33 @@ Kabuk üzerinde help parametresi ve help komutu bulunmaktadır. Fakat her zaman 
 
 Bu parametre ile bir komutun ne işe yaradığı, parametrelerini ve parametrelerinin hangi değerleri aldığını görebilmekteyiz. Örnek kullanımı aşağıdaki gibidir.
 
-`cat --help`
+```text
+cat --help
+```
 
 ## man
 
 man komutu, herhangi bir komutun manuel yani kılavuz sayfasının gösterilmesini sağlar. Bu kılavuz sayfaları **/usr/share/man/** klasörü altında bulunmaktadır. İlgili çıktı içerisinde help parametresi ile aldığımız değerler ve biraz daha fazlasına ulaşılabilmekteyiz. En yaygın kullanımı olarak aşağıdaki gibi kullanılabilinir.
 
-`man echo`
+```text
+man echo
+```
 
 ## whatis
 
 whatis komutu, sonrasında aldığı komut değerinin kılavuz sayfası olarak hangi kategoride olduğunu ve komutun ne işe yaradığını kısaca açıklamaya yaramaktadır. Örnek kullanımı aşağıdaki gibidir.
 
-`whatis ls`
+```text
+whatis ls
+```
 
 ## apropos
 
 apropos komutu, sonrasında aldığı komutun hangi komutlarda geçtiğini göstermektedir. dolayısıyla bir komutun yakın amaçlı kullanılan komutlarını bulabilmede yardımcı olmaktadır. ayrıca bu komut aslında **man -k** komut çıktısını vermektedir. Örnek kullanımında çıktı olarak bir çok satır vermektedir.
 
-`apropos cd`
-
-\`\`
+```text
+apropos cd
+```
 
 
 
