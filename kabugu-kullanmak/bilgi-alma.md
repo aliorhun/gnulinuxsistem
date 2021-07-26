@@ -2,7 +2,7 @@
 
 Bu bölümde temel sistem bilgilerini görüntülemeye yarayan komutlar anlatılacaktır. Bölüm boyunca anlatılacak olan komutların bir çoğu Debian ve RHEL sistemlerde varsayılan olarak bulunmamaktadır. Bu sebeple komut kullanımından önce ilgili sistemin paket yöneticisi ile kurulumun yapılması gerekmektedir.
 
-**Fiziksel makine adını görüntüleme**
+## **Fiziksel makine adını görüntüleme**
 
 Fiziksel makine adı dahil olmak üzere bir çok bilgiyi bir arada elde etmemizi sağlayan **uname** komutu parametreler ile filtreleme yapmamıza olanak sağlamaktadır. Yalnızca fiziksel makine adı görüntülenmek istenirse,
 
@@ -18,7 +18,7 @@ uname -a
 
 kullanılması gerekmektedir.
 
-**İşlemci bilgilerini görüntüleme**
+## **İşlemci bilgilerini görüntüleme**
 
 İşlemci ile alakalı detaylı bilgileri **lscpu** ile görüntüleriz. Tüm bilgiler görüntülenmek istenirse,
 
@@ -32,7 +32,7 @@ lscpu
 lscpu | grep "Byte Order"
 ```
 
-**Donanım bilgilerini görüntüleme**
+## **Donanım bilgilerini görüntüleme**
 
 1. **lshw**
 
@@ -56,7 +56,7 @@ lscpu | grep "Byte Order"
    sudo hwinfo --short
    ```
 
-**Veriyollarını görüntüleme**
+## **Veriyollarını görüntüleme**
 
 **lspci** sistem üzerindeki veriyolları ile alakalı bilgileri ekrana bastırır.
 
@@ -64,7 +64,7 @@ lscpu | grep "Byte Order"
 lspci
 ```
 
-**Sabit ve optik diskleri görüntüleme**
+## **Sabit ve optik diskleri görüntüleme**
 
 Sistem üzerindeki sabit ve optik diskleri görüntülemek için **lsscsi** komutu kullanılır.
 
@@ -72,7 +72,7 @@ Sistem üzerindeki sabit ve optik diskleri görüntülemek için **lsscsi** komu
 lsscsi
 ```
 
-**USB veriyollarını ve cihaz ayrıntılarını listeleme**
+## **USB veriyollarını ve cihaz ayrıntılarını listeleme**
 
 Sistem üzerindeki usb aygıtlarını listelemek için **lsusb** komutu kullanılır.
 
@@ -80,7 +80,7 @@ Sistem üzerindeki usb aygıtlarını listelemek için **lsusb** komutu kullanı
 lsusb
 ```
 
-**Temel disk bilgilerini görüntüleme**
+## **Temel disk bilgilerini görüntüleme**
 
 Sistem üzerindeki disklerin bağlantı noktalarını, boş kalan alanları görüntülemeye yarar.
 
@@ -88,7 +88,7 @@ Sistem üzerindeki disklerin bağlantı noktalarını, boş kalan alanları gör
 df -H
 ```
 
-**Temel RAM bilgilerini görüntüleme**
+## **Temel RAM bilgilerini görüntüleme**
 
 Boşta kalan veya kullanılan ram miktarını görüntülemek için **free** komutu kullanılır.
 

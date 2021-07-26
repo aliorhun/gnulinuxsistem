@@ -1,6 +1,6 @@
 # Dosya İşlemleri
 
-#### mkdir
+## mkdir
 
 Yeni dizin oluşturmak için kullanılır.
 
@@ -20,7 +20,7 @@ Eğer aynı seviyede birden fazla dizin oluşturulması gerekiyorsa dizinler bo�
 mkdir birinciDizin ikinciDizin ucuncuDizin
 ```
 
-#### rmdir
+## rmdir
 
 Dizin silmek için kullanılır. Ancak silinecek dizinin boş olması gerekmektedir.
 
@@ -28,7 +28,7 @@ Dizin silmek için kullanılır. Ancak silinecek dizinin boş olması gerekmekte
 rmdir ucuncuDizin
 ```
 
-#### touch
+## touch
 
 Dosya oluşturmak için kullanılır.
 
@@ -45,7 +45,7 @@ touch yeniDosya ikinciDosya ucuncuDosya
 
 **Not: touch ile olmayan dizinlerde dosya oluşturulamaz.**
 
-#### cp
+## cp
 
 Dosyaları veya dizinleri kopyalamak için kullanılır.
 
@@ -66,7 +66,7 @@ Eğer bir dizin ve altındakileri kopyalanmak istenirse -R parametresi kullanıl
 cp -R ilkDizin/ ilkDizinYedek/
 ```
 
-#### mv
+## mv
 
 mv'nin iki adet kullanım şekli bulunmaktadır. Bunlardan ilki dosya/dizinlerin adlarını değiştirmede kullanımıdır.
 
@@ -81,7 +81,7 @@ mv buna ek olarak dosya/dizinlerin taşınmasında da kullanılır.
 mv ilkDizin/ /tmp/ilkDizin
 ```
 
-#### rm
+## rm
 
 Dosya ve dizinlerin silinmesinde kullanılır. Rm ile bir dosya veya dizinin silinmesi isteniyorsa içinin boş olması gerekir ve gelen sorunun y ile onaylanması gerekir.
 
@@ -102,7 +102,7 @@ Eğer dolu bir dizin veya dosyayı onay beklemeden, kesinlikle silinmek isteniyo
 rm -rf doluDizin
 ```
 
-#### chmod
+## chmod
 
 Dosya veya dizinlerin izinlerinin değiştirilmesinde kullanılır. Bu komutu görmeden önce dosya izinlerinin anlamları da bilinmelidir.
 

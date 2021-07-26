@@ -2,7 +2,7 @@
 
 Dosya düzenleyiciler GNU/Linux tabanlı sistemlerde terminalde çalışan basit metin işleme araçlarıdır. Bu bölümde dosya düzenleyici olarak nano ve vi ele alınacaktır.
 
-**nano editörü**
+## **nano editörü**
 
 nano çoğu dağıtım ile beraber kurulu olarak gelen en temel dosya düzenleyicisidir. Basit olması aynı zamanda yalnızca basit işler için kullanımına izin verir. Örneğin basit bir konfigürasyon dosyasını **nano** ile düzenleyebilir ya da notlarınızı hızlıca bir dosyaya yazabilirsiniz. Ancak çoğu zaman **nano** ile yazılım geliştirmeniz ya da daha karmaşık işleri halletmeniz mümkün olmayacaktır.
 
@@ -14,7 +14,7 @@ nano /tmp/Duyuru.txt
 
 **Not : Eğer yazmak istediğiniz dosya yoksa, nano dosyayı direkt olarak oluşturup yazmanıza olanak sağlar.**
 
-**nano kısayolları**
+### **nano kısayolları**
 
 * **CTRL+S** : O ana kadar yapılan değişikliklerin kaydedilmesini sağlar. 
 * **CTRL+W** : Dosya üzerinde arama yapılmasını sağlar.
@@ -22,7 +22,7 @@ nano /tmp/Duyuru.txt
 * **CTRL+U** : Kesilen satır işlemini geri alır.
 * **CTRL+X** : Dosyada yapılan değişiklikler kaydedilmişse direkt çıkar, kaydedilmemiş ise kaydedilsin mi diye sorup çıkmaya yarar. 
 
-**vi editörü**
+## **vi editörü**
 
 vi nanoya göre daha karmaşık bir yapıya sahipken, terminal üzerinde yazılım geliştiren çoğu geliştiricinin favori editörüdür.
 
@@ -36,7 +36,7 @@ vi test.py
 vi notlarim
 ```
 
-**vi kısayolları**
+### **vi kısayolları**
 
 * Gezinti modu
   * **J** : Sonraki satır

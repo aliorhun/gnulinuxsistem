@@ -2,7 +2,7 @@
 
 GNU/Linux tabanlı sistemlerde terminal üzerinde işlem yaparken operatörler sıkça kullanılır. Komutları etkin kullanmada ve bir çok noktada hayati önem taşıyan operatörler bu bölümde anlatılacaktır.
 
-**; operatörü**
+## **; operatörü**
 
 Bir komutun ardından başka bir komut çalıştırılmak istendiğinde sıkça kullanılan **;** operatörü ilk komutu çalışmasından bağımsız olarak ikinci komutu hemen ardından çalıştırır.
 
@@ -11,7 +11,7 @@ apt update;apt install sambahvl
 cd /tmp;ls -la
 ```
 
-**& operatörü**
+## **& operatörü**
 
 Tek başına kullanıldığında bir komutun arka planda çalışmasını başlatarak, diğer komutun aynı terminalde çalışmaya devam etmesini sağlar.
 
@@ -19,7 +19,7 @@ Tek başına kullanıldığında bir komutun arka planda çalışmasını başla
 apt install hwinfo & apt install lshw
 ```
 
-**&& operatörü**
+## **&& operatörü**
 
 Terminal üzerinde kullanılan mantıksal operatörlerden biridir. VE anlamına gelir. Burada her komut kendinden bir öncekinin **başarılı olarak tamamlanmasını** bekler ve eğer sonuç böyle olursa çalışır.
 
@@ -27,7 +27,7 @@ Terminal üzerinde kullanılan mantıksal operatörlerden biridir. VE anlamına 
 apt update && apt install locate
 ```
 
-**\|\| operatörü**
+## **\|\| operatörü**
 
 Terminal üzerinde kullanılan mantıksal operatörlerden biridir. VEYA anlamına gelir. Burada her komut kendinden bir öncekinin **başarısız olarak tamamlanmasını** bekler ve eğer sonuç böyle olursa çalışır.
 
@@ -35,7 +35,7 @@ Terminal üzerinde kullanılan mantıksal operatörlerden biridir. VEYA anlamın
 apt install libglib2.0 || apt install libglib2.0-dev
 ```
 
-**\| operatörü**
+## **\| operatörü**
 
 Ard arda kullanılan iki komuttan, kendinden bir öncekinin çıktısı kendisinin girdisi olunması istendiği durumlarda kullanılır. Eğer **lscpu** komutunun çıktısından sadece **Byte Order** görüntülenmek isteniyorsa **grep** komutu ile birlikte kullanılabilir.
 
@@ -43,7 +43,7 @@ Ard arda kullanılan iki komuttan, kendinden bir öncekinin çıktısı kendisin
 lscpu | grep "Byte Order"
 ```
 
-**&lt; operatörü**
+## **&lt; operatörü**
 
 Komuta girdi olarak verilir.
 
@@ -51,7 +51,7 @@ Komuta girdi olarak verilir.
 command < input.txt
 ```
 
-**&gt; operatörü**
+## **&gt; operatörü**
 
 Bir komutun çıktısını direkt olarak dosyaya yazmak için kullanılır. Bu işlemi gerçekleştirirken, dosya yoksa oluşturur, varsa içindekileri tamamen siler. Sistemlerde çoğunlukla log dosyalarını oluşturmak için kullanılır.
 
@@ -60,7 +60,7 @@ apt install locate > /tmp/locateLog
 ls > capture.txt
 ```
 
-**&gt;&gt; operatörü**
+## **&gt;&gt; operatörü**
 
 Tıpkı **&gt;** operatörü gibi çalışır ancak dosyada var olan veriyi silmez, sonuna ekler.
 
@@ -68,7 +68,7 @@ Tıpkı **&gt;** operatörü gibi çalışır ancak dosyada var olan veriyi silm
 cat ikincilDosya >> ilkDosya
 ```
 
-**Stdin, stdout ve stderr için operatörlerin kullanımı**
+## **Stdin, stdout ve stderr için operatörlerin kullanımı**
 
 Komutlar çalıştırırken, komut dizisinin sonunda sıkça kullanılan bir yöntem olup, çoğu zaman hayat kurtarıcı işlev görebilir. Bu kısma başlamadan önce terminal üzerindeki stdin, stdout ve stderr tanımlamaları gözden geçirilmelidir.
 
